@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Piscines de Paris — trouver la piscine idéale</title>
+    <meta
+      name="description"
+      content="Trouvez la piscine municipale parisienne idéale : horaires, tarifs, accessibilité et transports proches. Filtrez par arrondissement, prix, créneau d'ouverture et ligne de transport."
+    />
+
+    <!-- Leaflet (carte) via CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>🏊 Piscines de Paris</h1>
+      <p class="subtitle">
+        Trouvez la piscine idéale : horaires, tarifs, accessibilité et transports.
+      </p>
+    </header>
+
+    <main class="layout">
+      <!-- Panneau de filtres -->
+      <aside id="filters" class="filters">
+        <div class="filter-group">
+          <label for="f-texte">Recherche</label>
+          <input id="f-texte" type="search" placeholder="Nom ou adresse…" />
+        </div>
+
+        <div class="filter-group">
+          <label for="f-when">Ouverture</label>
+          <select id="f-when">
+            <option value="">Peu importe</option>
+            <option value="maintenant">Ouvert maintenant</option>
+            <option value="creneau">Choisir un créneau…</option>
+          </select>
+          <div id="moment-controls" class="moment-controls">
+            <select id="f-jour"></select>
+            <div class="slider-row">
+              <span class="range-cap">Ouv.</span>
+              <input id="f-debut" type="range" min="0" max="1410" step="30" value="540" />
+              <span id="f-debut-label" class="slider-label">09h00</span>
+            </div>
+            <div class="slider-row">
+              <span class="range-cap">Ferm.</span>
+              <input id="f-fin" type="range" min="30" max="1440" step="30" value="1200" />
+              <span id="f-fin-label" class="slider-label">20h00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label for="f-prix">Prix max. (entrée)</label>
+          <div class="slider-row">
+            <input id="f-prix" type="range" min="0" max="6" step="0.5" value="6" />
+            <span id="f-prix-label" class="slider-label">illimité</span>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label>Arrondissement</label>
+          <div id="f-arr" class="chips"></div>
+        </div>
+
+        <div class="filter-group">
+          <label for="f-ligne">Ligne de transport</label>
+          <select id="f-ligne">
+            <option value="">Toutes les lignes</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="f-dist">Distance max. à un arrêt</label>
+          <div class="slider-row">
+            <input id="f-dist" type="range" min="100" max="1000" step="50" value="1000" />
+            <span id="f-dist-label" class="slider-label">illimité</span>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="chip">
+            <input id="f-pmr" type="checkbox" /> ♿ Accessible PMR uniquement
+          </label>
+        </div>
+
+        <div class="filter-group">
+          <label for="f-tri">Trier par</label>
+          <select id="f-tri">
+            <option value="nom">Nom</option>
+            <option value="arrondissement">Arrondissement</option>
+            <option value="transport">Proximité d'un arrêt</option>
+          </select>
+        </div>
+
+        <button id="f-reset" class="reset">Réinitialiser les filtres</button>
+        <p id="transport-status" class="muted small"></p>
+      </aside>
+
+      <!-- Résultats -->
+      <section class="results">
+        <div class="results-head">
+          <span id="count">…</span>
+        </div>
+        <div id="loading" class="loading">Chargement des piscines…</div>
+        <div id="list" class="list"></div>
+      </section>
+
+      <!-- Carte -->
+      <section class="map-wrap">
+        <div id="map"></div>
+        <div class="legend">
+          <span><i style="background:#2e7d32"></i> Ouvert</span>
+          <span><i style="background:#c62828"></i> Fermé</span>
+          <span><i style="background:#9e9e9e"></i> Inconnu</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Fiche détaillée (panneau latéral) -->
+    <div id="detail" class="detail">
+      <div id="detail-content" class="detail-content"></div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Données :
+        <a href="https://opendata.paris.fr" target="_blank" rel="noopener">Ville de Paris (opendata)</a>
+        ·
+        <a href="https://data.iledefrance-mobilites.fr" target="_blank" rel="noopener">Île-de-France Mobilités</a>
+        ·
+        <a href="https://www.paris.fr/lieux/piscines/tous-les-horaires" target="_blank" rel="noopener">paris.fr</a>.
+        Tarifs indicatifs. Site non officiel.
+      </p>
+    </footer>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

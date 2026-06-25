@@ -1,0 +1,353 @@
+{
+  "generatedAt": "2026-06-25T16:03:59.052Z",
+  "devise": "€",
+  "defaut": {
+    "plein": 3.5,
+    "reduit": 2
+  },
+  "piscines": {
+    "2": {
+      "nom": "Piscine Marie-Marvingt",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-marie-marvingt-2",
+      "source": "https://www.paris.fr/lieux/piscine-marie-marvingt-2",
+      "methode": "scrape"
+    },
+    "2916": {
+      "nom": "Piscine Suzanne Berlioux (Les Halles)",
+      "plein": 5,
+      "reduit": 4.4,
+      "url": "https://www.paris.fr/lieux/piscine-suzanne-berlioux-les-halles-2916",
+      "source": "https://piscine-berlioux.fr/tarifs.html",
+      "methode": "exception"
+    },
+    "2918": {
+      "nom": "Espace Sportif Pontoise",
+      "plein": 5.2,
+      "reduit": 3.1,
+      "url": "https://www.paris.fr/lieux/espace-sportif-pontoise-2918",
+      "source": "https://www.paris.fr/lieux/espace-sportif-pontoise-2918",
+      "methode": "exception"
+    },
+    "2919": {
+      "nom": "Piscine Saint-Germain",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-saint-germain-2919",
+      "source": "https://www.paris.fr/lieux/piscine-saint-germain-2919",
+      "methode": "scrape"
+    },
+    "2920": {
+      "nom": "Piscine Georges Drigny",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-georges-drigny-2920",
+      "source": "https://www.paris.fr/lieux/piscine-georges-drigny-2920",
+      "methode": "scrape"
+    },
+    "2921": {
+      "nom": "Piscine Paul Valeyre",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-paul-valeyre-2921",
+      "source": "https://www.paris.fr/lieux/piscine-paul-valeyre-2921",
+      "methode": "scrape"
+    },
+    "2923": {
+      "nom": "Piscine Château-Landon",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-chateau-landon-2923",
+      "source": "https://www.paris.fr/lieux/piscine-chateau-landon-2923",
+      "methode": "scrape"
+    },
+    "2924": {
+      "nom": "Piscine Georges Rigal",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-georges-rigal-2924",
+      "source": "https://www.paris.fr/lieux/piscine-georges-rigal-2924",
+      "methode": "scrape"
+    },
+    "2925": {
+      "nom": "Piscine de la Cour des Lions",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-de-la-cour-des-lions-2925",
+      "source": "https://www.paris.fr/lieux/piscine-de-la-cour-des-lions-2925",
+      "methode": "scrape"
+    },
+    "2926": {
+      "nom": "Piscine Jean Boiteux",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-jean-boiteux-2926",
+      "source": "https://www.paris.fr/lieux/piscine-jean-boiteux-2926",
+      "methode": "scrape"
+    },
+    "2927": {
+      "nom": "Piscine de la Butte aux Cailles",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-de-la-butte-aux-cailles-2927",
+      "source": "https://www.paris.fr/lieux/piscine-de-la-butte-aux-cailles-2927",
+      "methode": "scrape"
+    },
+    "2928": {
+      "nom": "Piscine Château des Rentiers",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-chateau-des-rentiers-2928",
+      "source": "https://www.paris.fr/lieux/piscine-chateau-des-rentiers-2928",
+      "methode": "scrape"
+    },
+    "2929": {
+      "nom": "Piscine Dunois",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-dunois-2929",
+      "source": "https://www.paris.fr/lieux/piscine-dunois-2929",
+      "methode": "scrape"
+    },
+    "2930": {
+      "nom": "Piscine Joséphine-Baker",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-josephine-baker-2930",
+      "source": "https://www.paris.fr/lieux/piscine-josephine-baker-2930",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "2931": {
+      "nom": "Piscine Aspirant Dunand",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-aspirant-dunand-2931",
+      "source": "https://www.paris.fr/lieux/piscine-aspirant-dunand-2931",
+      "methode": "scrape"
+    },
+    "2932": {
+      "nom": "Piscine Didot",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-didot-2932",
+      "source": "https://www.paris.fr/lieux/piscine-didot-2932",
+      "methode": "scrape"
+    },
+    "2933": {
+      "nom": "Piscine Armand Massard",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-armand-massard-2933",
+      "source": "https://www.paris.fr/lieux/piscine-armand-massard-2933",
+      "methode": "scrape"
+    },
+    "2934": {
+      "nom": "Piscine Blomet",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-blomet-2934",
+      "source": "https://www.paris.fr/lieux/piscine-blomet-2934",
+      "methode": "scrape"
+    },
+    "2936": {
+      "nom": "Piscine Keller",
+      "plein": 3.5,
+      "reduit": null,
+      "url": "https://www.paris.fr/lieux/piscine-keller-2936",
+      "source": "https://www.paris.fr/lieux/piscine-keller-2936",
+      "methode": "scrape"
+    },
+    "2937": {
+      "nom": "Piscine La Plaine",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-la-plaine-2937",
+      "source": "https://www.paris.fr/lieux/piscine-la-plaine-2937",
+      "methode": "scrape"
+    },
+    "2938": {
+      "nom": "Piscine René et André Mourlon",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-rene-et-andre-mourlon-2938",
+      "source": "https://www.paris.fr/lieux/piscine-rene-et-andre-mourlon-2938",
+      "methode": "scrape"
+    },
+    "2939": {
+      "nom": "Piscine Henry de Montherlant",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-henry-de-montherlant-2939",
+      "source": "https://www.paris.fr/lieux/piscine-henry-de-montherlant-2939",
+      "methode": "scrape"
+    },
+    "2940": {
+      "nom": "Piscine Bernard Lafay",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-bernard-lafay-2940",
+      "source": "https://www.paris.fr/lieux/piscine-bernard-lafay-2940",
+      "methode": "scrape"
+    },
+    "2941": {
+      "nom": "Piscine Marjorie Gestring (Ex : Piscine Champerret)",
+      "plein": 3.5,
+      "reduit": null,
+      "url": "https://www.paris.fr/lieux/piscine-marjorie-gestring-ex-piscine-champerret-2941",
+      "source": "https://www.paris.fr/lieux/piscine-marjorie-gestring-ex-piscine-champerret-2941",
+      "methode": "scrape"
+    },
+    "2942": {
+      "nom": "Piscine Bertrand Dauvin",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-bertrand-dauvin-2942",
+      "source": "https://www.paris.fr/lieux/piscine-bertrand-dauvin-2942",
+      "methode": "scrape"
+    },
+    "2943": {
+      "nom": "Piscine Hébert",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-hebert-2943",
+      "source": "https://www.paris.fr/lieux/piscine-hebert-2943",
+      "methode": "scrape"
+    },
+    "2944": {
+      "nom": "Piscine des Amiraux",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-des-amiraux-2944",
+      "source": "https://www.paris.fr/lieux/piscine-des-amiraux-2944",
+      "methode": "scrape"
+    },
+    "2945": {
+      "nom": "Piscine Edouard Pailleron",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
+      "source": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "2946": {
+      "nom": "Piscine Mathis",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-mathis-2946",
+      "source": "https://www.paris.fr/lieux/piscine-mathis-2946",
+      "methode": "scrape"
+    },
+    "2947": {
+      "nom": "Piscine Rouvet",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-rouvet-2947",
+      "source": "https://www.paris.fr/lieux/piscine-rouvet-2947",
+      "methode": "scrape"
+    },
+    "2948": {
+      "nom": "Piscine Georges Hermant",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-georges-hermant-2948",
+      "source": "https://www.paris.fr/lieux/piscine-georges-hermant-2948",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "2949": {
+      "nom": "Piscine Georges-Vallerey",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-georges-vallerey-2949",
+      "source": "https://www.paris.fr/lieux/piscine-georges-vallerey-2949",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "2950": {
+      "nom": "Piscine Roger Le Gall",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-roger-le-gall-2950",
+      "source": "https://www.paris.fr/lieux/piscine-roger-le-gall-2950",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "3324": {
+      "nom": "Piscine d'Auteuil",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-d-auteuil-3324",
+      "source": "https://www.paris.fr/lieux/piscine-d-auteuil-3324",
+      "methode": "scrape"
+    },
+    "3325": {
+      "nom": "Piscine Jean Taris",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-jean-taris-3325",
+      "source": "https://www.paris.fr/lieux/piscine-jean-taris-3325",
+      "methode": "scrape"
+    },
+    "4012": {
+      "nom": "Piscine Alfred Nakache",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-alfred-nakache-4012",
+      "source": "https://www.paris.fr/lieux/piscine-alfred-nakache-4012",
+      "methode": "scrape"
+    },
+    "5041": {
+      "nom": "Piscine Catherine Lagatu",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-catherine-lagatu-5041",
+      "source": "https://www.paris.fr/lieux/piscine-catherine-lagatu-5041",
+      "methode": "scrape"
+    },
+    "17349": {
+      "nom": "Piscine Jacqueline Auriol",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-jacqueline-auriol-17349",
+      "source": "https://www.paris.fr/lieux/piscine-jacqueline-auriol-17349",
+      "methode": "scrape"
+    },
+    "19201": {
+      "nom": "Piscine Emile Anthoine",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-emile-anthoine-19201",
+      "source": "https://www.paris.fr/lieux/piscine-emile-anthoine-19201",
+      "methode": "scrape"
+    },
+    "19543": {
+      "nom": "Piscine Yvonne Godard",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-yvonne-godard-19543",
+      "source": "https://www.paris.fr/lieux/piscine-yvonne-godard-19543",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "19569": {
+      "nom": "Piscine Thérèse et Jeanne Brulé",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-therese-et-jeanne-brule-19569",
+      "source": "https://www.paris.fr/lieux/piscine-therese-et-jeanne-brule-19569",
+      "methode": "defaut",
+      "note": "tarif non trouvé"
+    },
+    "20617": {
+      "nom": "Piscine Solita Salgado",
+      "plein": 3.5,
+      "reduit": 2,
+      "url": "https://www.paris.fr/lieux/piscine-solita-salgado-20617",
+      "source": "https://www.paris.fr/lieux/piscine-solita-salgado-20617",
+      "methode": "scrape"
+    }
+  }
+}
