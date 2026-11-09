@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:35:01.178Z",
+  "generatedAt": "2026-11-09T13:58:03.988Z",
   "devise": "€",
   "defaut": {
     "plein": 3.5,
@@ -230,7 +230,7 @@
       "url": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
       "source": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
       "methode": "defaut",
-      "note": "tarif non trouvé"
+      "note": "HTTP 404"
     },
     "2946": {
       "nom": "Piscine Mathis",
