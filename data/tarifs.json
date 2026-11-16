@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:58:03.988Z",
+  "generatedAt": "2026-11-16T13:43:32.794Z",
   "devise": "€",
   "defaut": {
     "plein": 3.5,
@@ -230,7 +230,7 @@
       "url": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
       "source": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
       "methode": "defaut",
-      "note": "HTTP 404"
+      "note": "tarif non trouvé"
     },
     "2946": {
       "nom": "Piscine Mathis",
@@ -348,7 +348,7 @@
       "url": "https://www.paris.fr/lieux/centre-sportif-armand-massard-20433",
       "source": "https://www.paris.fr/lieux/centre-sportif-armand-massard-20433",
       "methode": "defaut",
-      "note": "tarif non trouvé"
+      "note": "HTTP 404"
     },
     "20617": {
       "nom": "Piscine Solita Salgado",
